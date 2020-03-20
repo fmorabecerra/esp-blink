@@ -1,12 +1,12 @@
 # esp-blink -- Blink Example
 
-Starts a FreeRTOS task to blink an LED. 
+Starts a FreeRTOS task to blink an LED. This project is based on one of expressif's example projects for esp32.
 
-## Instructions on how to get you dev environment ready
-The .vscode folder includes config files to launch an openOCD debug session.
+## Toolchain
+Use expressif's [getting started](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html) instructions to set up your toolchain.
 
 ## Set up debugging environment
-You will need to install openOCD. you can follow the [expressif debuging](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/jtag-debugging/) instructions to set this up.
+The .vscode folder includes config files to launch an openOCD debug session is Visual Studio code. You will need to install openOCD. you can follow the [expressif debuging](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/jtag-debugging/) instructions to set this up.
 
 ### Helpful tips
 Need to replace the esp-wroom-32.cfg openOCD file to get rid of errors when trying to launch openOCD server.
